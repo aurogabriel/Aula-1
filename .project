@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>FonAu1.7</name>
+	<name>Aula01</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -26,34 +26,14 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>F2837xD_Adc.c</name>
-			<type>1</type>
-			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_Adc.c</locationURI>
-		</link>
-		<link>
 			<name>F2837xD_CodeStartBranch.asm</name>
 			<type>1</type>
 			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_CodeStartBranch.asm</locationURI>
 		</link>
 		<link>
-			<name>F2837xD_CpuTimers.c</name>
-			<type>1</type>
-			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_CpuTimers.c</locationURI>
-		</link>
-		<link>
 			<name>F2837xD_DefaultISR.c</name>
 			<type>1</type>
 			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_DefaultISR.c</locationURI>
-		</link>
-		<link>
-			<name>F2837xD_EPwm.c</name>
-			<type>1</type>
-			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_EPwm.c</locationURI>
-		</link>
-		<link>
-			<name>F2837xD_EQep.c</name>
-			<type>1</type>
-			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_EQep.c</locationURI>
 		</link>
 		<link>
 			<name>F2837xD_GlobalVariableDefs.c</name>
@@ -71,29 +51,9 @@
 			<locationURI>DEVICE_SUPPORT/headers/cmd/F2837xD_Headers_nonBIOS_cpu1.cmd</locationURI>
 		</link>
 		<link>
-			<name>F2837xD_I2C.c</name>
-			<type>1</type>
-			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_I2C.c</locationURI>
-		</link>
-		<link>
-			<name>F2837xD_PieCtrl.c</name>
-			<type>1</type>
-			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_PieCtrl.c</locationURI>
-		</link>
-		<link>
-			<name>F2837xD_PieVect.c</name>
-			<type>1</type>
-			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_PieVect.c</locationURI>
-		</link>
-		<link>
 			<name>F2837xD_SysCtrl.c</name>
 			<type>1</type>
 			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_SysCtrl.c</locationURI>
-		</link>
-		<link>
-			<name>F2837xD_usDelay.asm</name>
-			<type>1</type>
-			<locationURI>DEVICE_SUPPORT/common/source/F2837xD_usDelay.asm</locationURI>
 		</link>
 	</linkedResources>
 	<variableList>
