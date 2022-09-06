@@ -18,8 +18,11 @@ int main(void)
 {
     InitSysCtrl();
     EALLOW; //Registradores protegidos (Não é o caso do GPIO0 mas coloquei pra exemplificar o uso)
-    GpioCtrlRegs.GPAGMUX1.bit.GPIO0=0;  //Configuro o grupo de MUX da porta
     GpioCtrlRegs.GPAMUX1.bit.GPIO0=0; //Configuro o MUX da porta
+    //###########################################################
+    //Sempre GPyGMUX depois de GPyMUX, nunca o contrário
+    //###########################################################
+    GpioCtrlRegs.GPAGMUX1.bit.GPIO0=0;  //Configuro o grupo de MUX da porta
     GpioCtrlRegs.GPADIR.bit.GPIO0=1;   //Configuro Se é input ou output
     GpioCtrlRegs.GPAPUD.bit.GPIO0=1;   //Configuro se o pull up ta ligado ou desligado PUD= PullUp Disable
     EDIS;//Fecha "Registradores protegidos (Não é o caso do GPIO0 mas coloquei pra exemplificar o uso)
